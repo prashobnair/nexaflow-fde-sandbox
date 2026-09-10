@@ -1,0 +1,33 @@
+# Secrets and local configuration (commit a sanitized .env.example if needed)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, bytecode, and tooling caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and notebook state
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Generated analysis output; retain the directory in Git
+outputs/*
+!outputs/.gitkeep

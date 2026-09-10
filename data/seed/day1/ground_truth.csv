@@ -1,0 +1,26 @@
+scenario_id,customer_id,expected_label,primary_driver,recommended_action,evidence
+SCN-0002,CUST-0002,at_risk,adoption decline,Ask CSM to validate workflow adoption and schedule recovery plan,Planted archetype: adoption_collapse
+SCN-0003,CUST-0003,at_risk,support burden,Route P1/P2 incident review to Support with CSM visibility,Planted archetype: ticket_cluster
+SCN-0004,CUST-0004,watch,implementation delay,Professional Services to unblock integration dependency,Planted archetype: implementation_delay
+SCN-0005,CUST-0005,watch,renewal and weak engagement,CSM to confirm sponsor and renewal plan,Planted archetype: renewal_watch
+SCN-0006,CUST-0006,watch,missing telemetry,Data/CSM verification before risk outreach,Planted archetype: telemetry_gap
+SCN-0007,CUST-0007,healthy,stale risk flag,Verify stale flag and recalibrate health score,Planted archetype: stale_risk
+SCN-0009,CUST-0009,at_risk,adoption decline,Ask CSM to validate workflow adoption and schedule recovery plan,Planted archetype: adoption_collapse
+SCN-0010,CUST-0010,at_risk,support burden,Route P1/P2 incident review to Support with CSM visibility,Planted archetype: ticket_cluster
+SCN-0011,CUST-0011,watch,implementation delay,Professional Services to unblock integration dependency,Planted archetype: implementation_delay
+SCN-0012,CUST-0012,watch,renewal and weak engagement,CSM to confirm sponsor and renewal plan,Planted archetype: renewal_watch
+SCN-0013,CUST-0013,watch,missing telemetry,Data/CSM verification before risk outreach,Planted archetype: telemetry_gap
+SCN-0014,CUST-0014,healthy,stale risk flag,Verify stale flag and recalibrate health score,Planted archetype: stale_risk
+SCN-0016,CUST-0016,at_risk,adoption decline,Ask CSM to validate workflow adoption and schedule recovery plan,Planted archetype: adoption_collapse
+SCN-0017,CUST-0017,at_risk,support burden,Route P1/P2 incident review to Support with CSM visibility,Planted archetype: ticket_cluster
+SCN-0018,CUST-0018,watch,implementation delay,Professional Services to unblock integration dependency,Planted archetype: implementation_delay
+SCN-0019,CUST-0019,watch,renewal and weak engagement,CSM to confirm sponsor and renewal plan,Planted archetype: renewal_watch
+SCN-0020,CUST-0020,watch,missing telemetry,Data/CSM verification before risk outreach,Planted archetype: telemetry_gap
+SCN-0021,CUST-0021,healthy,stale risk flag,Verify stale flag and recalibrate health score,Planted archetype: stale_risk
+SCN-0023,CUST-0023,at_risk,adoption decline,Ask CSM to validate workflow adoption and schedule recovery plan,Planted archetype: adoption_collapse
+SCN-0024,CUST-0024,at_risk,support burden,Route P1/P2 incident review to Support with CSM visibility,Planted archetype: ticket_cluster
+SCN-0025,CUST-0025,watch,implementation delay,Professional Services to unblock integration dependency,Planted archetype: implementation_delay
+SCN-0026,CUST-0026,watch,renewal and weak engagement,CSM to confirm sponsor and renewal plan,Planted archetype: renewal_watch
+SCN-0027,CUST-0027,watch,missing telemetry,Data/CSM verification before risk outreach,Planted archetype: telemetry_gap
+SCN-0028,CUST-0028,healthy,stale risk flag,Verify stale flag and recalibrate health score,Planted archetype: stale_risk
+SCN-0030,CUST-0030,at_risk,adoption decline,Ask CSM to validate workflow adoption and schedule recovery plan,Planted archetype: adoption_collapse

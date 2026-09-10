@@ -1,0 +1,22 @@
+{
+  "profile": "day1",
+  "seed": 42,
+  "as_of_date": "2026-09-01",
+  "counts": {
+    "customers": 30,
+    "contacts": 60,
+    "contracts": 30,
+    "implementations": 30,
+    "usage_daily": 2676,
+    "support_tickets": 250,
+    "communications": 30,
+    "documents": 30,
+    "ground_truth": 25
+  },
+  "intentional_defects": [
+    "CUST-0027 invalid contract dates",
+    "TKT-00017 open status with resolved_at",
+    "telemetry gap archetypes",
+    "delayed ingestion rows"
+  ]
+}

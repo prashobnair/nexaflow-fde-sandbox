@@ -1,0 +1,10 @@
+CREATE TABLE customers (customer_id text PRIMARY KEY, customer_name text NOT NULL, industry text, segment text, lifecycle_stage text, health_score integer, health_label text, renewal_date date, account_owner text, created_at date);
+CREATE TABLE contacts (contact_id text PRIMARY KEY, customer_id text REFERENCES customers, full_name text, email text, role text, is_champion boolean, last_engaged_at date);
+CREATE TABLE contracts (contract_id text PRIMARY KEY, customer_id text REFERENCES customers, start_date date, end_date date, arr_usd numeric, status text);
+CREATE TABLE implementations (implementation_id text PRIMARY KEY, customer_id text REFERENCES customers, workspace_id text, status text, target_go_live_date date, actual_go_live_date date, risk_reason text);
+CREATE TABLE usage_daily (usage_id text PRIMARY KEY, customer_id text REFERENCES customers, workspace_id text, usage_date date, active_users integer, workflows_run integer, sla_breach_count integer, ingested_at timestamptz);
+CREATE TABLE support_tickets (ticket_id text PRIMARY KEY, customer_id text REFERENCES customers, severity text, status text, opened_at date, resolved_at date, category text, title text);
+CREATE TABLE communications (communication_id text PRIMARY KEY, customer_id text REFERENCES customers, occurred_at date, channel text, direction text, sentiment text, summary text);
+CREATE TABLE documents (document_id text PRIMARY KEY, customer_id text REFERENCES customers, document_type text, updated_at date, title text, body text, source_url text);
+CREATE INDEX usage_customer_date ON usage_daily(customer_id, usage_date);
+CREATE INDEX tickets_customer_status ON support_tickets(customer_id, status);
